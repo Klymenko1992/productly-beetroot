@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+
+</head>
+<style>
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.box:nth-child(2) {
+  background-color: blue;
+  position: absolute;
+  bottom: 300px;
+  right: 320px;  
+}
+
+
+.box:last-child {
+    background-color: green;
+    position: absolute;
+    bottom: 400px;
+    right: 420px;
+
+}
+.row {
+    width: 600px;
+    height: 600px;
+    background: grey;
+    position: relative;
+}
+.box:first-child {
+position: absolute;
+bottom: 350px;
+right: 370px;
+z-index: 9;
+}
+
+
+
+
+</style>
+
+<body>
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
