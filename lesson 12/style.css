@@ -1,0 +1,20 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+  font: var(--main-text-font);
+}
+
+:root {
+  --main-font: "Delius Unicase";
+  --main-text-font: 400 36px/24px var(--main-font);
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid__item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

@@ -197,11 +197,7 @@ body {
 .logo__container {
   display: flex;
   justify-content: space-between;
-  background-color: linear-gradient(
-    180deg,
-    rgba(255, 229, 210, 0.63) 0.33%,
-    rgba(255, 244, 229, 0) 99.67%
-  );
+  background-color: linear-gradient(180deg, rgba(255, 229, 210, 0.63) 0.33%, rgba(255, 244, 229, 0) 99.67%);
 }
 .hero2__container {
   display: flex;
