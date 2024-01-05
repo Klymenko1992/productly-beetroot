@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .field {
+            width: 300px;
+
+
+        }
+
+        .field__text {
+            max-height: 0px;
+            overflow: hidden;
+            background-color: blue;
+            color: #fff;
+            transition: max-height 1s;
+        }
+
+        .field__input:checked+.field__text {
+            max-height: 1500px;
+
+        }
+
+        .field__input {
+            display: none;
+        }
+
+        .tab {
+            color: #fff;
+            background-color: blue;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Checkbox example</h1>
+        <div class="container">
+            <div class="field">
+                <label for="tab1" class="tab">Tab1</label>
+                <input class="field__input" type="checkbox" id="tab1">
+                <p class="field__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Perspiciatis nemo facere, in velit odit est aliquam sequi mollitia! Nihil libero
+                    possimus consequatur vero laudantium recusandae architecto debitis iste odit, optio,
+                    voluptatum alias illum corporis cupiditate minima tempore, ipsum distinctio suscipit
+                    dicta excepturi? Sequi consectetur eligendi voluptates quos, aut saepe distinctio?</p>
+            </div>
+            <div class="field">
+                <label for="tab2" class="tab">Tab2</label>
+                <input class="field__input" type="checkbox" id="tab2">
+                <p class="field__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Perspiciatis nemo facere, in velit odit est aliquam sequi mollitia! Nihil libero
+                    possimus consequatur vero laudantium recusandae architecto debitis iste odit, optio,
+                    voluptatum alias illum corporis cupiditate minima tempore, ipsum distinctio suscipit
+                    dicta excepturi? Sequi consectetur eligendi voluptates quos, aut saepe distinctio?</p>
+            </div>
+            <div class="field">
+                <label for="tab3" class="tab">Tab3</label>
+                <input class="field__input" type="checkbox" id="tab3">
+                <p class="field__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Perspiciatis nemo facere, in velit odit est aliquam sequi mollitia! Nihil libero
+                    possimus consequatur vero laudantium recusandae architecto debitis iste odit, optio,
+                    voluptatum alias illum corporis cupiditate minima tempore, ipsum distinctio suscipit
+                    dicta excepturi? Sequi consectetur eligendi voluptates quos, aut saepe distinctio?</p>
+            </div>
+            <div class="field">
+                <label for="tab4" class="tab">Tab4</label>
+                <input class="field__input" type="checkbox" id="tab4">
+                <p class="field__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Perspiciatis nemo facere, in velit odit est aliquam sequi mollitia! Nihil libero
+                    possimus consequatur vero laudantium recusandae architecto debitis iste odit, optio,
+                    voluptatum alias illum corporis cupiditate minima tempore, ipsum distinctio suscipit
+                    dicta excepturi? Sequi consectetur eligendi voluptates quos, aut saepe distinctio?</p>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

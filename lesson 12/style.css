@@ -10,11 +10,28 @@
   --main-text-font: 400 36px/24px var(--main-font);
 }
 .hero {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  max-width: 1152px;
 }
-.grid__item {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+
+.box__item {
+  height: 370px;
+  display: inline;
+  width: 370px;
+  gap: 30px;
+}
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 80px;
+}
+.hero2 {
+  max-width: 1160px;
+}
+
+.hero2__text {
+  padding: 120px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
